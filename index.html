@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find My Age</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>find my age</h1>
+        <div class="takeInput">
+            <label for="date">enter your birth date:</label>
+            <input type="number" name="date" placeholder="Date" id="date" min="1" max="31">
+            <label for="month">enter your birth month:</label>
+            <input type="number" name="month" placeholder="Month" id="month" min="1" max="12">
+            <label for="year">enter your birth year:</label>
+            <input type="number" name="year" placeholder="year" id="year" min="1920" max="2021">
+            <label for="time">enter your birth time:</label>
+            <input type="time" name="time" placeholder="Time" id="time">
+            <button id="getData">find age</button>
+        </div>
+        <h2>Your Age is <span id="showAge">________</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body></html>

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: cooper;
+    margin-bottom: 10px;
+}
+
+.takeInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.takeInput label {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.takeInput input {
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.takeInput button {
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background: #c2e59c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 0.5s linear;
+}
+
+.takeInput button:hover {
+    cursor: pointer;
+    background: #c2e59c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #64b3f4, #c2e59c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #64b3f4, #c2e59c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
