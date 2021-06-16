@@ -19,5 +19,5 @@ document.getElementById("getData").onclick = function () {
     var finalYear = newYear - year;
     var finalTime = (newHour + newMin) - time;
     
-    document.getElementById("showAge").innerHTML = finalDate + finalMonth + finalYear + finalTime;
+    document.getElementById("showAge").innerHTML = finalYear + "years, " + finalMonth + "months, " + finalDate + "days. ";
 }
